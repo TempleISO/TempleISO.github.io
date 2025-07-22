@@ -8,7 +8,13 @@
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
+    <h1 class="portfolio-title">
+  <span class="title-wrapper">
+    <img src="IMG/tux.gif" alt="Tux" class="logo-icon">
+    Projects
+    <img src="IMG/tux.gif" alt="Extra Icon" class="logo-icon">
+  </span>
+</h1>
     <nav>
       <a href="index.html">About</a>
       <a href="skills.html">Skills</a>
@@ -23,25 +29,57 @@
       <h2>Projects</h2>
 
       <article>
-        <h3>Dockerized WordPress Deployment</h3>
-        <p>Set up a scalable WordPress site running in Docker containers with automated backups and monitoring.</p>
-        <p><strong>Technologies:</strong> Docker, WordPress, Bash scripting</p>
-        <p><a href="https://github.com/yourusername/docker-wordpress" target="_blank" rel="noopener">GitHub Repo</a></p>
+        <h3>Home Theatre Server</h3>
+        <p>Configured Jellyfin on an Arch Linux system. Configured Jellyfin to stream music, series, movies and other local videos to both wired and wireless clients located on different subnets.</p>
+        <p><strong>Technologies:</strong> Arch Linux, Jellyfin, multi-NIC networking, subnet routing, firewall rules (iptables and RouterOS)</p>
       </article>
 
       <article>
-        <h3>Network Automation Scripts</h3>
-        <p>Developed PowerShell and Python scripts to automate network device configuration and monitoring.</p>
-        <p><strong>Technologies:</strong> PowerShell, Python, SNMP</p>
-        <p><a href="https://github.com/yourusername/network-automation" target="_blank" rel="noopener">GitHub Repo</a></p>
+        <h3>Local DNS server</h3>
+        <p>Configured and managed BIND9 DNS servers on both Slackware and Ubuntu systems to provide local name resolution, caching, and forwarding services within the network.</p>
+        <p><strong>Technologies:</strong> Slackware Linux, Ubuntu Linux, Bind9 DNS, DNS zone management, caching, forwarding, troubleshooting</p>
       </article>
 
-      <!-- Add more projects similarly -->
+      <article>
+        <h3>File and Print Sharing with Samba</h3>
+        <p>Setup and managed Samba servers on Slackware, Ubuntu and Arch Linux to enable file and printer sharing across both Linux and Windows systems.</p>
+        <p><strong>Technologies:</strong> Slackware, Ubuntu, Arch, Samba, SMB/CIFS, ADDC (samba), permission management</p>
+      </article>
+
+      <article>
+        <h3>Proxy Server</h3>
+        <p>Setup and maintained a squid proxy server on my local network to neforce access policies.</p>
+        <p><strong>Technologies:</strong> Slackware, Squid Proxy, ACLs, caching, proxy auth</p>
+      </article>
+
+      <article>
+        <h3>Home Network Infrastructure</h3>
+        <p>Designed and configured a home network involving multiple device manufacturers (Cisco, MT, TP-Link, Huawei, Mercsys...). Managed ISP-provided modem, MikroTik Hex router, TP-Link SG series switch, And Cisco Catalyst 2960 switch to create multiple VLANs and subnets for wired and wireless clients.</p>
+        <p>Implemented firewall rules to secure and segment the network.</p>
+        <p><strong>Technologies:</strong>MikroTik RouterOS, Cisco CLI (Catalyst 2960), TP-Link, VLANs, subnetting, firewall, DHCP, routing, segmentation</p>
+      </article>
+
+      <article>
+        <h3>Windows Active Directory Domain Controller (ADDC)</h3>
+        <p>Installed, configured and maintained an ADDC to manage user accounts and group policies</p>
+        <p><strong>Technologies:</strong>Windows Server (2019, 2020, 2022), Active Directory, Group Policy, DNS, DHCP</p>
+      </article>
+
+      <article>
+        <h3>HTML and CSS web pages</h3>
+        <p>Like the one youre looking at right now. Manually writting HTML and CSS, and with the help of AI and templates, speeding up the process.</p>
+        <p><strong>Tehcnologies:</strong> HTML, CSS, Apache2, NginX, Git, AI tools</p>
+      </article>
+
+      <h3>And many more smaller ones, which probably arent worth mentioning</h3>
+
     </section>
   </main>
 
+<!--      <p><a href="https://github.com/yourusername/network-automation" target="_blank" rel="noopener">GitHub Repo</a></p> -->
+
   <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
+    <p>© 2025 Filip Sajinovic. Powered by Linux & caffeine.</p>
   </footer>
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #000000;
-  color: #ccc;
+  color: #999999;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@ body {
 
 /*========== Header ==========*/
 header {
-  background-color: #111111;
-  color: #fff;
+  background-color: #160000;
+  color: white;
   padding: 1.5rem 1rem;
   text-align: center;
 }
@@ -27,13 +27,11 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.2rem;
-  color: #fff;
 }
 
 header .title {
   font-weight: 300;
   margin-bottom: 1rem;
-  color: #ddd;
 }
 
 nav {
@@ -41,7 +39,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   margin: 0 0.75rem;
   padding-bottom: 0.25rem;
@@ -52,7 +50,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid white;
 }
 
 /*========== Main ==========*/
@@ -61,90 +59,37 @@ main {
   padding: 2rem 1rem;
   max-width: 900px;
   margin: 0 auto;
-  background: #111111;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  border: 1px solid #444;
+  background: rgb(17, 17, 17);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 5px;
-  color: #ddd;
 }
 
 h2 {
   margin-bottom: 1rem;
-  color: #fff;
+  color: #860000;
 }
 
 h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #fff;
+  color: #4e0000;
 }
 
 ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-bottom: 1rem;
-  color: #ccc;
 }
 
 article {
   margin-bottom: 1.5rem;
-  color: #eee;
 }
 
 /*========== Footer ==========*/
 footer {
   background: #222;
-  color: #999;
+  color: #aaa;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 0.9rem;
-}
-
-/*========== Links ==========*/
-/* Base link style */
-main a,
-footer a,
-article a,
-#contact a {
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-/* On hover */
-main a:hover,
-footer a:hover,
-article a:hover,
-#contact a:hover {
-  color: #cc1800;
-  text-decoration: underline;
-}
-
-/* If links are visited */
-main a:visited,
-footer a:visited,
-article a:visited,
-#contact a:visited {
-  color: #c58888;
-}
-
-
-/*========== Tux ==========*/
-.portfolio-title {
-  text-align: center;
-}
-
-.title-wrapper {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-.logo-icon {
-  height: 32px;
-  width: auto;
-  vertical-align: middle;
-  margin: 0 0.4rem;
-  border-radius: 4px;
 }
